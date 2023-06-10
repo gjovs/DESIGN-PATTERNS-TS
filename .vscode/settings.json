@@ -1,6 +1,7 @@
 {
-    "window.zoomLevel": 1,
+    "window.zoomLevel": 2,
     "code-runner.executorMap": {
-        "typescript": "cls && ts-node --files --transpile-only",
-    }
+        "typescript": "cls && npx ts-node-dev --files --transpile-only",
+    },
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }
